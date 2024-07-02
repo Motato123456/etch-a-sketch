@@ -1,4 +1,7 @@
-let input = prompt("Give a grid number:")
+const btn = document.querySelector(".btn")
+btn.addEventListener("click", () => {
+    const input = prompt("Grid size? :");
+});
 
 
 
